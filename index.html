@@ -60,6 +60,12 @@
 			.bp {
 				color: rgba(255, 255, 255, 0.6);
 			}
+
+            .nav-p {
+                color: rgba(19, 19, 24, 0.50);
+                color: rgba(19, 19, 24, 0.50);
+                font-weight: 500;
+            }
 		</style>
 	</head>
 
@@ -380,12 +386,19 @@
 							in sit nullam proin.
 						</p>
 					</div>
-					<div class="grid grid-cols-1 w-[95%] mx-auto lg:flex flex-col gap-6">
+					<div
+						class="grid grid-cols-1 w-[95%] mx-auto lg:flex flex-col gap-6"
+					>
 						<div class="grid grid-cols-1 lg:flex gap-6">
 							<div
 								class="lg:w-1/2 h-auto pl-10 pr-9 rounded-xl"
 								style="
-									background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url('./Images/2.png');
+									background-image: linear-gradient(
+											180deg,
+											rgba(19, 19, 24, 0.5),
+											rgba(19, 19, 24, 0.5)
+										),
+										url('./Images/2.png');
 									background-repeat: no-repeat;
 									background-size: 100% 100%;
 								"
@@ -414,7 +427,12 @@
 							<div
 								class="lg:w-1/2 h-auto pl-10 pr-9 rounded-xl"
 								style="
-									background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url('./Images/3.png');
+									background-image: linear-gradient(
+											180deg,
+											rgba(19, 19, 24, 0.5),
+											rgba(19, 19, 24, 0.5)
+										),
+										url('./Images/3.png');
 									background-repeat: no-repeat;
 									background-size: 100% 100%;
 								"
@@ -422,7 +440,7 @@
 								<h1
 									class="text-white text-[28px] font-extrabold mt-6 lg:mt-24 mb-4"
 								>
-                                Teenager Program
+									Teenager Program
 								</h1>
 								<p
 									class="text-white w-[95%] text-[16px] font-medium mb-6"
@@ -441,37 +459,303 @@
 							</div>
 						</div>
 						<div
-								class="w-full pl-10 pr-9 rounded-xl"
-								style="
-									background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url('./Images/4.png');
-									background-repeat: no-repeat;
-									background-size: 100% 100%;
-                                    border-radius: 20px;
-								"
+							class="w-full pl-10 pr-9 rounded-xl"
+							style="
+								background-image: linear-gradient(
+										180deg,
+										rgba(19, 19, 24, 0.5),
+										rgba(19, 19, 24, 0.5)
+									),
+									url('./Images/4.png');
+								background-repeat: no-repeat;
+								background-size: 100% 100%;
+								border-radius: 20px;
+							"
+						>
+							<h1
+								class="text-white text-[28px] font-extrabold mt-6 lg:mt-52 mb-4"
 							>
-								<h1
-									class="text-white text-[28px] font-extrabold mt-6 lg:mt-52 mb-4"
-								>
-                                Professional Program
-								</h1>
-								<p
-									class="text-white text-[16px] w-[95%]  lg:w-[50%] font-medium mb-6"
-								>
-									Dolor sit amet consectetur. Ut urna diam
-									quis sagittis. Elit elit enim sagittis
-									turpis in magna. Id et sed euismod natoque
-									amet nunc morbi nulla. Tortor congue sed et
-									in.
-								</p>
-								<button
-									class="btn mb-10 bg-theme text-white border-none text-lg font-bold hover:bg-theme hover:opacity-90"
-								>
-									Register Now!
-								</button>
+								Professional Program
+							</h1>
+							<p
+								class="text-white text-[16px] w-[95%] lg:w-[50%] font-medium mb-6"
+							>
+								Dolor sit amet consectetur. Ut urna diam quis
+								sagittis. Elit elit enim sagittis turpis in
+								magna. Id et sed euismod natoque amet nunc morbi
+								nulla. Tortor congue sed et in.
+							</p>
+							<button
+								class="btn mb-10 bg-theme text-white border-none text-lg font-bold hover:bg-theme hover:opacity-90"
+							>
+								Register Now!
+							</button>
 						</div>
 					</div>
 				</div>
 			</section>
+
+			<!-- Our New Products -->
+			<section class="container mx-auto mt-10 lg:mt-32">
+				<div>
+					<h1
+						class="text-title pt-6 lg:pt-0 border-t border-dashed w-[95%] mx-auto lg:border-none lg:w-full text-[22px] lg:text-4xl font-extrabold text-center mb-4 lg:mb-6"
+					>
+						Our New Products
+					</h1>
+					<p
+						class="disc mb-16 pb-4 lg:pb-0 border-b border-dashed lg:border-none lg:mb-20 text-sm lg:text-[16px] font-medium w-[95%] lg:w-1/2 mx-auto text-center"
+					>
+						Dit amet consectetur. Condimentum dignissim adipiscing
+						aliquam turpis placerat dolor. Purus urna in sit nullam
+						proin.
+					</p>
+                    <div class="grid lg:gap-6 lg:grid-cols-2">
+
+                        <!-- card 1 -->
+                        <div class="px-6 w-auto py-5 mb-6 lg:mb-0 border mx-5 lg:mx-0 rounded-xl">
+                            <div class="lg:flex items-center gap-5">
+                                <div>
+                                    <img class="w-full mb-6 lg:mb-0" src="./Images/5.png" alt="">
+                                </div>
+                                <div class="flex items-start flex-col">
+                                    <nav class="flex gap-4 mb-3">
+                                        <div class="flex gap-2">
+                                            <img src="./Images/star.png" alt="">
+                                            <h1 class="nav-p">5.0</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/eye.png" alt="">
+                                            <h1 class="nav-p">20</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/love.png" alt="">
+                                            <h1 class="nav-p">200</h1>
+                                        </div>
+                                    </nav>
+                                    <header class="mb-3">
+                                        <h1 class="text-title font-extrabold text-[20px]">World Cup Flags Football</h1>
+                                    </header>
+                                    <div class="mb-4">
+                                        <p class="nav-p">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    </div>
+                                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-5">
+                                        <div>
+                                            <p class="text-theme text-lg font-extrabold">Price - $22.00</p>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/shop.png" alt="">
+                                            <p class="nav-p w-full">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="px-6 w-auto py-5 mb-6 lg:mb-0 border mx-5 lg:mx-0 rounded-xl">
+                            <div class="lg:flex items-center gap-5">
+                                <div>
+                                    <img class="w-full mb-6 lg:mb-0" src="./Images/6.png" alt="">
+                                </div>
+                                <div class="flex items-start flex-col">
+                                    <nav class="flex gap-4 mb-3">
+                                        <div class="flex gap-2">
+                                            <img src="./Images/star.png" alt="">
+                                            <h1 class="nav-p">5.0</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/eye.png" alt="">
+                                            <h1 class="nav-p">20</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/love.png" alt="">
+                                            <h1 class="nav-p">200</h1>
+                                        </div>
+                                    </nav>
+                                    <header class="mb-3">
+                                        <h1 class="text-title font-extrabold text-[20px]">World Cup Flags Football</h1>
+                                    </header>
+                                    <div class="mb-4">
+                                        <p class="nav-p">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    </div>
+                                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-5">
+                                        <div>
+                                            <p class="text-theme text-lg font-extrabold">Price - $22.00</p>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/shop.png" alt="">
+                                            <p class="nav-p w-full">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="px-6 w-auto py-5 mb-6 lg:mb-0 border mx-5 lg:mx-0 rounded-xl">
+                            <div class="lg:flex items-center gap-5">
+                                <div>
+                                    <img class="w-full mb-6 lg:mb-0" src="./Images/7.png" alt="">
+                                </div>
+                                <div class="flex items-start flex-col">
+                                    <nav class="flex gap-4 mb-3">
+                                        <div class="flex gap-2">
+                                            <img src="./Images/star.png" alt="">
+                                            <h1 class="nav-p">5.0</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/eye.png" alt="">
+                                            <h1 class="nav-p">20</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/love.png" alt="">
+                                            <h1 class="nav-p">200</h1>
+                                        </div>
+                                    </nav>
+                                    <header class="mb-3">
+                                        <h1 class="text-title font-extrabold text-[20px]">Cap For Hockeys</h1>
+                                    </header>
+                                    <div class="mb-4">
+                                        <p class="nav-p">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    </div>
+                                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-5">
+                                        <div>
+                                            <p class="text-theme text-lg font-extrabold">Price - $22.00</p>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/shop.png" alt="">
+                                            <p class="nav-p w-full">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 4 -->
+                        <div class="px-6 w-auto py-5 mb-6 lg:mb-0 border mx-5 lg:mx-0 rounded-xl">
+                            <div class="lg:flex items-center gap-5">
+                                <div>
+                                    <img class="w-full mb-6 lg:mb-0" src="./Images/8.png" alt="">
+                                </div>
+                                <div class="flex items-start flex-col">
+                                    <nav class="flex gap-4 mb-3">
+                                        <div class="flex gap-2">
+                                            <img src="./Images/star.png" alt="">
+                                            <h1 class="nav-p">5.0</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/eye.png" alt="">
+                                            <h1 class="nav-p">20</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/love.png" alt="">
+                                            <h1 class="nav-p">200</h1>
+                                        </div>
+                                    </nav>
+                                    <header class="mb-3">
+                                        <h1 class="text-title font-extrabold text-[20px]">World Cup Flags Football</h1>
+                                    </header>
+                                    <div class="mb-4">
+                                        <p class="nav-p">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    </div>
+                                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-5">
+                                        <div>
+                                            <p class="text-theme text-lg font-extrabold">Price - $22.00</p>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/shop.png" alt="">
+                                            <p class="nav-p w-full">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 5 -->
+                        <div class="px-6 w-auto py-5 mb-6 lg:mb-0 border mx-5 lg:mx-0 rounded-xl">
+                            <div class="lg:flex items-center gap-5">
+                                <div>
+                                    <img class="w-full mb-6 lg:mb-0" src="./Images/9.png" alt="">
+                                </div>
+                                <div class="flex items-start flex-col">
+                                    <nav class="flex gap-4 mb-3">
+                                        <div class="flex gap-2">
+                                            <img src="./Images/star.png" alt="">
+                                            <h1 class="nav-p">5.0</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/eye.png" alt="">
+                                            <h1 class="nav-p">20</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/love.png" alt="">
+                                            <h1 class="nav-p">200</h1>
+                                        </div>
+                                    </nav>
+                                    <header class="mb-3">
+                                        <h1 class="text-title font-extrabold text-[20px]">World Cup Flags Football</h1>
+                                    </header>
+                                    <div class="mb-4">
+                                        <p class="nav-p">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    </div>
+                                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-5">
+                                        <div>
+                                            <p class="text-theme text-lg font-extrabold">Price - $22.00</p>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/shop.png" alt="">
+                                            <p class="nav-p w-full">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 6 -->
+                        <div class="px-6 w-auto py-5 mb-6 lg:mb-0 border mx-5 lg:mx-0 rounded-xl">
+                            <div class="lg:flex items-center gap-5">
+                                <div>
+                                    <img class="w-full mb-6 lg:mb-0" src="./Images/10.png" alt="">
+                                </div>
+                                <div class="flex items-start flex-col">
+                                    <nav class="flex gap-4 mb-3">
+                                        <div class="flex gap-2">
+                                            <img src="./Images/star.png" alt="">
+                                            <h1 class="nav-p">5.0</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/eye.png" alt="">
+                                            <h1 class="nav-p">20</h1>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/love.png" alt="">
+                                            <h1 class="nav-p">200</h1>
+                                        </div>
+                                    </nav>
+                                    <header class="mb-3">
+                                        <h1 class="text-title font-extrabold text-[20px]">World Cup Flags Football</h1>
+                                    </header>
+                                    <div class="mb-4">
+                                        <p class="nav-p">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    </div>
+                                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-5">
+                                        <div>
+                                            <p class="text-theme text-lg font-extrabold">Price - $22.00</p>
+                                        </div>
+                                        <div class="flex gap-2">
+                                            <img src="./Images/shop.png" alt="">
+                                            <p class="nav-p w-full">Delivery Fee : Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</section>
+
+            
 		</main>
 	</body>
 </html>
