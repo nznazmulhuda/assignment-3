@@ -49,15 +49,139 @@
 
 		<!-- custom style -->
 		<style>
-            .manrope {
-                font-family: 'Manrope', sans-serif;
-            }
+			* {
+				font-family: "Manrope", sans-serif;
+			}
 
 			.disc {
 				color: rgba(19, 19, 24, 0.6);
 			}
+
+            .bp {
+                color: rgba(255, 255, 255, 0.60);
+            }
 		</style>
 	</head>
 
-	<body></body>
+	<body>
+		<!-- Header part is here -->
+		<header>
+			<!-- Navbar is here -->
+			<nav class="container mx-auto mt-6 lg:mt-12">
+				<div class="navbar bg-base-100">
+					<div class="navbar-start">
+						<!-- Responsive Menu Bar -->
+						<div class="dropdown">
+							<div
+								tabindex="0"
+								role="button"
+								class="btn btn-ghost lg:hidden"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-5 w-5"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M4 6h16M4 12h8m-8 6h16"
+									/>
+								</svg>
+							</div>
+							<ul
+								tabindex="0"
+								class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+							>
+								<li><a class="text-[#424247] text-theme" href="">Home</a></li>
+								<li><a class="text-[#424247] text-[16px] font-bold" href="">About</a></li>
+								<li><a class="text-[#424247] text-[16px] font-bold" href="">Pages</a></li>
+								<li><a class="text-[#424247] text-[16px] font-bold" href="">Blog</a></li>
+								<li><a class="text-[#424247] text-[16px] font-bold" href="">Contact</a></li>
+							</ul>
+						</div>
+
+						<!-- logo part is here -->
+						<a
+							class="text-2xl lg:text-4xl cursor-pointer font-extrabold text-title"
+							>Hockey<span class="text-theme">’</span>s</a
+						>
+					</div>
+
+					<!-- page link part is here -->
+					<div class="navbar-center hidden lg:flex">
+						<ul class="menu menu-horizontal px-1">
+							<li><a class="text-theme text-[16px] font-bold" href="">Home</a></li>
+							<li><a class="text-[16px] font-bold text-[#424247]" href="">About</a></li>
+							<li><a class="text-[16px] font-bold text-[#424247]" href="">Pages</a></li>
+							<li><a class="text-[16px] font-bold text-[#424247]" href="">Blog</a></li>
+							<li><a class="text-[16px] font-bold text-[#424247]" href="">Contact</a></li>
+						</ul>
+					</div>
+
+					<!-- search icon and button part is here -->
+					<div class="navbar-end cursor-pointer flex gap-5">
+						<img
+							class="hidden lg:flex"
+							src="./Images/search.png"
+							alt=""
+						/>
+						<a
+							class="btn bg-theme text-white font-bold text-lg lg:text-xl hover:bg-theme hover:opacity-85"
+							>Get Ticket</a
+						>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- main part is here -->
+		<main>
+			<!-- banner part is here -->
+			<section class="container mx-auto mt-12">
+				<div class="relative w-[90%] mx-auto lg:w-full">
+                    <!-- slider part is here -->
+					<div class="carousel lg:h-[70vh] w-full">
+
+                        <!-- slide 1 -->
+						<div id="slide1" class="carousel-item relative w-full">
+							<img
+								src="./Images/1.png"
+								class="w-full"
+							/>
+							<div
+								class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+							>
+								<a href="#slide2" class="btn btn-circle">❮</a>
+								<a href="#slide2" class="btn btn-circle">❯</a>
+							</div>
+						</div>
+
+                        <!-- slide 2 -->
+						<div id="slide2" class="carousel-item relative w-full">
+							<img
+								src="./Images/3.png"
+								class="w-full"
+							/>
+							<div
+								class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+							>
+								<a href="#slide1" class="btn btn-circle">❮</a>
+								<a href="#slide1" class="btn btn-circle">❯</a>
+							</div>
+						</div>
+					</div>
+
+                    <!-- Meet all the heroes from the field -->
+                    <div class="p-8 flex flex-col lg:absolute bottom-8 right-8 w-full lg:w-[40%] bg-[#131318] rounded-lg">
+                        <h1 class="mb-4 text-white text-left text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                        <p class="text-[14px] lg:text-[16px] font-medium bp">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
