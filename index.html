@@ -95,6 +95,19 @@
 				border-radius: 12px;
 				background: rgba(19, 19, 24, 0.03);
 			}
+
+			.footer-p {
+				color: rgba(255, 255, 255, 0.6);
+			}
+
+			.footer-disc {
+				color: rgba(255, 255, 255, 0.8);
+				font-family: Manrope;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+			}
 		</style>
 	</head>
 
@@ -1261,16 +1274,133 @@
 					</div>
 				</div>
 				<!-- social icon -->
-				<div class="flex flex-col items-center justify-center social py-9">
-					<h1 class="mb-6 text-title text-2xl font-extrabold">Social Media</h1>
+				<div
+					class="flex flex-col items-center justify-center social py-9"
+				>
+					<h1 class="mb-6 text-title text-2xl font-extrabold">
+						Social Media
+					</h1>
 					<div class="flex gap-6">
-						<a href=""><i class="text-2xl fa-brands fa-twitter"></i></a>
-						<a href=""><i class="text-2xl fa-brands fa-facebook-f"></i></a>
-						<a href=""><i class="text-2xl fa-brands fa-instagram"></i></a>
-						<a href=""><i class="text-2xl fa-brands fa-github"></i></a>
+						<a href=""
+							><i class="text-2xl fa-brands fa-twitter"></i
+						></a>
+						<a href=""
+							><i class="text-2xl fa-brands fa-facebook-f"></i
+						></a>
+						<a href=""
+							><i class="text-2xl fa-brands fa-instagram"></i
+						></a>
+						<a href=""
+							><i class="text-2xl fa-brands fa-github"></i
+						></a>
 					</div>
 				</div>
 			</section>
 		</main>
+
+		<!-- footer part is here -->
+		<footer
+			class="footer justify-around flex flex-col lg:flex-row p-10 bg-title text-base-content"
+		>
+			<aside
+				class="w-full flex flex-col items-center lg:items-start lg:w-[20%]"
+			>
+				<h1 class="text-white text-3xl font-extrabold mb-4">
+					Get In Touch
+				</h1>
+				<p class="footer-p text-center lg:text-left mb-6">
+					Dit amet consectetur. Condimentum adipiscing aliquam turpis
+					placerat dolor. Purus urna in sit nullam proin.
+				</p>
+				<div class="flex items-center gap-3">
+					<img src="./Images/mass.png" alt="" />
+					<h1 class="footer-disc">hockeys@support.com</h1>
+				</div>
+				<div class="flex items-center gap-3">
+					<img src="./Images/call.png" alt="" />
+					<h1 class="footer-disc">(+62) 123-321-543</h1>
+				</div>
+			</aside>
+
+			<nav class="hidden lg:flex flex-col">
+				<header class="footer-title text-white text-lg font-bold">
+					Company
+				</header>
+				<a class="link footer-p link-hover">About us</a>
+				<a class="link footer-p link-hover">Leadership</a>
+				<a class="link footer-p link-hover">Careers</a>
+				<a class="link footer-p link-hover">News & Article</a>
+				<a class="link footer-p link-hover">Legal Notice</a>
+			</nav>
+
+			<nav class="hidden lg:flex flex-col">
+				<header class="footer-title text-white text-lg font-bold">
+					Support
+				</header>
+				<a class="link footer-p link-hover">Help Center</a>
+				<a class="link footer-p link-hover">FAQ</a>
+				<a class="link footer-p link-hover">Ticket Support</a>
+				<a class="link footer-p link-hover">Contact Us</a>
+			</nav>
+
+			<nav class="hidden lg:flex flex-col">
+				<header class="footer-title text-white text-lg font-bold">
+					Services
+				</header>
+				<a class="link footer-p link-hover">Academy</a>
+				<a class="link footer-p link-hover">Group Lesson</a>
+				<a class="link footer-p link-hover">Private Lesson</a>
+				<a class="link footer-p link-hover">Hockeys for kids</a>
+				<a class="link footer-p link-hover">Hockeys for Adult</a>
+			</nav>
+		</footer>
+
+		<footer class="w-full pb-10 text-center bg-title lg:hidden">
+			<div class="space-y-6">
+				<div class="flex justify-evenly">
+					<nav class="flex flex-col lg:hidden">
+						<header
+							class="footer-title text-white text-lg font-bold"
+						>
+							Company
+						</header>
+						<a class="link footer-p link-hover">About us</a>
+						<a class="link footer-p link-hover">Leadership</a>
+						<a class="link footer-p link-hover">Careers</a>
+						<a class="link footer-p link-hover">News & Article</a>
+						<a class="link footer-p link-hover">Legal Notice</a>
+					</nav>
+
+					<nav class="flex flex-col lg:hidden">
+						<header
+							class="footer-title text-white text-lg font-bold"
+						>
+							Support
+						</header>
+						<a class="link footer-p link-hover">Help Center</a>
+						<a class="link footer-p link-hover">FAQ</a>
+						<a class="link footer-p link-hover">Ticket Support</a>
+						<a class="link footer-p link-hover">Contact Us</a>
+					</nav>
+				</div>
+
+				<div>
+					<nav class="flex flex-col lg:hidden">
+						<header
+							class="footer-title text-white text-lg font-bold"
+						>
+							Services
+						</header>
+						<a class="link footer-p link-hover">Academy</a>
+						<a class="link footer-p link-hover">Group Lesson</a>
+						<a class="link footer-p link-hover">Private Lesson</a>
+						<a class="link footer-p link-hover">Hockeys for kids</a>
+						<a class="link footer-p link-hover"
+							>Hockeys for Adult</a
+						>
+					</nav>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
